@@ -9,8 +9,7 @@ RUN yum -y update && \
 RUN yum -y install nginx
 
 # Install PostgreSQL 11
-RUN rpm -Uvh https://download.postgresql.org/pub/repos/yum/11/redhat/rhel-7-x86_64/pgdg-centos11-11-2.noarch.rpm && \
-    yum -y install postgresql11-server
+RUN yum -y install postgresql-server
 
 # Install Node.js 0.10.6
 RUN curl -sL https://rpm.nodesource.com/setup_14.x | bash - && \
