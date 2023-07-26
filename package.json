@@ -1,8 +1,13 @@
-{ 
- "name": "examplenodeapp", 
- "description": "Example Express Node.js app.", 
- "author": "dtndevopscandidate <devopscandidate@datasintesa.id>",  "dependencies": { 
- "express": "4.x" 
- }, 
- "engine": "node >= 0.10.6" 
-} 
+{
+    "name": "examplenodeapp",
+    "description": "Example Express Node.js app.",
+    "author": "dtndevopscandidate <devopscandidate@datasintesa.id>",
+    "dependencies": {
+      "express": "4.x"
+    },
+    "engine": "node >= 0.10.6",
+    "scripts": {
+      "start": "node app.js"
+    }
+  }
+  
